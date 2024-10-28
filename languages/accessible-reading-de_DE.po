@@ -1,0 +1,658 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Accessible Reading\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-08-17 20:39+0000\n"
+"PO-Revision-Date: 2022-09-27 18:08+0000\n"
+"Last-Translator: Site Admin\n"
+"Language-Team: German\n"
+"Language: de_DE\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.2; wp-6.0.1\n"
+"X-Domain: accessible-reading"
+
+#: templates/dashboard-admin.php:28
+msgid "About Bionic Reading®"
+msgstr ""
+
+#. Name of the plugin
+#: inc/class-settings.php:77
+msgid "Accessible Reading"
+msgstr ""
+
+#: inc/class-settings.php:352
+msgid "Allow Processing"
+msgstr ""
+
+#: inc/class-settings.php:103
+msgid "API Key"
+msgstr ""
+
+#: templates/edit-metabox.php:25
+msgid "API Key is not configured!"
+msgstr ""
+
+#. Author of the plugin
+msgid "AuRise Creative"
+msgstr ""
+
+#: inc/class-main.php:1007
+#, php-format
+msgid ""
+"Based on your API plan and character counts of your post content, it will "
+"take %s API request(s) to complete this process."
+msgstr ""
+
+#: inc/class-main.php:1011
+#, php-format
+msgid ""
+"Based on your batch limit, it will take approximately %s minutes to complete."
+" Processing takes place in the background so you can safely leave this page "
+"once it is started."
+msgstr ""
+
+#: inc/class-settings.php:128
+msgid "Basic"
+msgstr ""
+
+#: templates/dashboard-admin.php:113
+msgid "Batch Limit"
+msgstr ""
+
+#: templates/dashboard-admin.php:235
+msgid ""
+"Bionic Reading® is a new method facilitating the reading process by guiding "
+"the eyes through text with artificial fixation points. As a result, the "
+"reader is only focusing on the highlighted initial letters and lets the bran "
+"center complete the word. In a digital world dominated by shallow forms of "
+"reading, Bionic Reading aims to encourage more in-depth reading and "
+"understanding of written content."
+msgstr ""
+
+#: templates/dashboard-admin.php:26 templates/dashboard-admin.php:95
+#: templates/edit-metabox.php:30
+msgid "Bulk Update"
+msgstr ""
+
+#: inc/class-settings.php:259
+msgid "Button Label to Disable"
+msgstr ""
+
+#: inc/class-settings.php:249
+msgid "Button Label to Enable"
+msgstr ""
+
+#: templates/dashboard-support.php:27
+msgid "Buy me a Coffee"
+msgstr ""
+
+#: templates/dashboard-admin.php:17
+msgid "Cancel"
+msgstr ""
+
+#: inc/class-settings.php:260
+msgid ""
+"Change the default button label that tells users to turn accessible reading "
+"off."
+msgstr ""
+
+#: inc/class-settings.php:250
+msgid ""
+"Change the default button label that tells users to turn accessible reading "
+"on."
+msgstr ""
+
+#: inc/class-settings.php:171
+msgid "Choose the default setting for the toggle switch."
+msgstr ""
+
+#: inc/class-settings.php:370
+msgid ""
+"Choose the default setting for the toggle switch. This will have no effect "
+"if processing is disabled for this post."
+msgstr ""
+
+#: inc/class-frontend.php:80
+msgid "Click/tap to toggle accessible reading mode"
+msgstr ""
+
+#: templates/dashboard-support.php:26
+msgid "Coffee cup"
+msgstr ""
+
+#: inc/class-main.php:569
+msgid ""
+"Could not estimate API usage because either the post type or post ID is "
+"invalid."
+msgstr ""
+
+#: inc/class-settings.php:170
+msgid "Default Setting"
+msgstr ""
+
+#: inc/class-settings.php:143
+msgid "Define the expression of the letter combinations."
+msgstr ""
+
+#: inc/class-settings.php:157
+msgid "Define the visual jumps from fixation to fixation."
+msgstr ""
+
+#: inc/class-settings.php:261
+msgid "Disable Accessible Reading"
+msgstr "Barrierefreies Lesen deaktivieren"
+
+#: inc/class-settings.php:179 inc/class-settings.php:363
+#: inc/class-settings.php:380
+msgid "Disabled"
+msgstr ""
+
+#: inc/class-settings.php:280
+msgid "Disabled State Background Color"
+msgstr ""
+
+#: inc/class-settings.php:302
+msgid "Disabled State Circle Color"
+msgstr ""
+
+#: inc/class-settings.php:291
+msgid "Disabled State Text Color"
+msgstr ""
+
+#: templates/dashboard-admin.php:156
+msgid "Display automatically generated accessible content anywhere!"
+msgstr ""
+
+#: inc/class-settings.php:189
+msgid ""
+"Display or hide the toggle switch that automatically appears at the top of "
+"the post content. Only recommended if you use the shortcodes instead."
+msgstr ""
+
+#: templates/dashboard-admin.php:197
+msgid "Display pre-made accessible content when toggled on"
+msgstr ""
+
+#: templates/dashboard-admin.php:187
+msgid "Display the toggle switch anywhere"
+msgstr ""
+
+#: templates/dashboard-support.php:24
+msgid "Donate"
+msgstr ""
+
+#: templates/dashboard-admin.php:130
+msgid "Dry Run"
+msgstr ""
+
+#: templates/edit-metabox.php:28
+msgid "Edit Global Settings"
+msgstr ""
+
+#: inc/class-settings.php:251
+msgid "Enable Accessible Reading"
+msgstr "Barrierefreies Lesen aktivieren"
+
+#: inc/class-settings.php:182 inc/class-settings.php:360
+#: inc/class-settings.php:383
+msgid "Enabled"
+msgstr ""
+
+#: inc/class-settings.php:313
+msgid "Enabled State Background Color"
+msgstr ""
+
+#: inc/class-settings.php:335
+msgid "Enabled State Circle Color"
+msgstr ""
+
+#: inc/class-settings.php:324
+msgid "Enabled State Text Color"
+msgstr ""
+
+#: templates/edit-metabox.php:12
+msgid "Estimate API Usage for this Post"
+msgstr ""
+
+#: inc/class-settings.php:142 templates/dashboard-admin.php:52
+msgid "Fixation"
+msgstr ""
+
+#: templates/dashboard-admin.php:117
+msgid "Force Generate"
+msgstr ""
+
+#: inc/class-settings.php:107
+msgid "Free and paid versions are available."
+msgstr ""
+
+#: inc/class-settings.php:106
+msgid "Get an API key."
+msgstr ""
+
+#: inc/class-settings.php:197
+msgid "Hidden"
+msgstr ""
+
+#: templates/dashboard-admin.php:214
+msgid "Hide original content when toggled on"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://aurisecreative.com/"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://aurisecreative.com/accessible-reading/"
+msgstr ""
+
+#: templates/dashboard-admin.php:139
+msgid ""
+"If enabled, pressing the start button will only process your posts to "
+"determine how many API requests will need to be made and roughly how long it "
+"will take to complete based on your plan and these settings. If disabled, it "
+"will process your posts using the API."
+msgstr ""
+
+#: templates/dashboard-admin.php:126
+msgid ""
+"If enabled, this will overwrite all previously generated accessible content. "
+"Otherwise, it will just generate content for posts that were missing "
+"accessible content."
+msgstr ""
+
+#: templates/dashboard-admin.php:179
+#, php-format
+msgid ""
+"If you want to temporarily disable the automatic processing without removing "
+"the shortcode, you can set the %s attribute to %s like this:"
+msgstr ""
+
+#: templates/dashboard-support.php:15
+msgid ""
+"If you're experiencing issues with this plugin or have a suggestion for a "
+"feature or fix, please check the support threads or submit a ticket to give "
+"me the opportunity to make it better. I want to help!"
+msgstr ""
+
+#: templates/dashboard-admin.php:240
+msgid "Learn More about Bionic Reading"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Make your website more accessible by offering a reading accommodation to "
+"your disabled and neurodivergent readers by adding Bionic Reading® as a font "
+"choice!"
+msgstr ""
+
+#: templates/dashboard-admin.php:49
+msgid ""
+"Modify the fixation and saccade options below to preview how they will look "
+"<small>(this will not count against your request limit)</small>."
+msgstr ""
+
+#: inc/class-frontend.php:226
+msgid "No accessible content available for this shortcode content"
+msgstr ""
+
+#: inc/class-settings.php:501 templates/dashboard-admin.php:122
+#: templates/dashboard-admin.php:135
+msgid "Off"
+msgstr ""
+
+#: inc/class-settings.php:500 templates/dashboard-admin.php:123
+#: templates/dashboard-admin.php:136
+msgid "On"
+msgstr ""
+
+#: inc/class-settings.php:353
+msgid ""
+"Opt this post out from being processed for accessible reading. This will "
+"also prevent the toggle switch from being shown to visitors."
+msgstr ""
+
+#: inc/class-settings.php:117
+msgid "Plan"
+msgstr ""
+
+#: templates/edit-metabox.php:25
+msgid "Please edit the global settings to add your API key."
+msgstr ""
+
+#: templates/dashboard-support.php:2
+msgid "Plugin Support"
+msgstr ""
+
+#: templates/dashboard-admin.php:25
+msgid "Preview"
+msgstr ""
+
+#: inc/class-settings.php:133
+msgid "Pro"
+msgstr ""
+
+#: inc/class-frontend.php:180
+msgid "Processing accessible reading content is disabled for this shortcode"
+msgstr ""
+
+#: templates/dashboard-admin.php:16
+msgid "Processing bulk data in the background."
+msgstr ""
+
+#: inc/class-settings.php:900
+msgid "Processing canceled."
+msgstr ""
+
+#: inc/class-main.php:1029
+msgid ""
+"Processing is already in progress. Please stop it before starting a new one."
+msgstr ""
+
+#: inc/class-main.php:1016
+msgid ""
+"Processing will not be completed today due to your plan's daily API request "
+"limit. It will automatically resume 24 hours after it's last request."
+msgstr ""
+
+#: inc/class-settings.php:156 templates/dashboard-admin.php:56
+msgid "Saccade"
+msgstr ""
+
+#: templates/dashboard-admin.php:44
+msgid "Save Settings"
+msgstr ""
+
+#: inc/class-settings.php:281
+msgid "Select a background color for your toggle switch when it is disabled."
+msgstr ""
+
+#: inc/class-settings.php:314
+msgid "Select a background color for your toggle switch when it is enabled."
+msgstr ""
+
+#: inc/class-settings.php:303
+msgid "Select a color for your toggle switch's ball when it is disabled."
+msgstr ""
+
+#: inc/class-settings.php:336
+msgid "Select a color for your toggle switch's ball when it is enabled."
+msgstr ""
+
+#: inc/class-settings.php:292
+msgid "Select a text color for your toggle switch when it is disabled."
+msgstr ""
+
+#: inc/class-settings.php:325
+msgid "Select a text color for your toggle switch when it is enabled."
+msgstr ""
+
+#: inc/class-settings.php:118
+msgid ""
+"Select the plan that your API key is subscribed to. This will determine your "
+"API request limits. If unsure, choose \"Basic.\""
+msgstr ""
+
+#: inc/class-settings.php:100 inc/class-settings.php:828
+#: templates/dashboard-admin.php:24
+msgid "Settings"
+msgstr ""
+
+#: templates/dashboard-admin.php:6
+msgid "Settings Saved!"
+msgstr ""
+
+#: templates/dashboard-admin.php:27
+msgid "Shortcodes"
+msgstr ""
+
+#: templates/dashboard-admin.php:145
+msgid "Start Bulk Update"
+msgstr ""
+
+#: templates/dashboard-support.php:17
+msgid "Support Forums"
+msgstr ""
+
+#: templates/dashboard-admin.php:159
+#, php-format
+msgid ""
+"The %s shortcode allows you to add accessible text with a toggle switch "
+"anywhere on your WordPress website. To ensure your shortcode's accessible "
+"content is automatically generated, a user with %s capabilities must preview "
+"the page using the shortcode at least once while you have enough API "
+"requests for the day."
+msgstr ""
+
+#: templates/dashboard-admin.php:200
+#, php-format
+msgid ""
+"The %s shortcode allows you to add pre-made accessible content anywhere on "
+"your WordPress website that a toggle switch will display when turned on."
+msgstr ""
+
+#: templates/dashboard-admin.php:190
+#, php-format
+msgid ""
+"The %s shortcode shortcode allows you to add a toggle switch anywhere on "
+"your WordPress website. To use it, simply copy paste this self-closing "
+"shortcode:"
+msgstr ""
+
+#: inc/class-frontend.php:186
+msgid ""
+"The `id` attribute for the accessible reading shortcode is missing! Cannot "
+"save processed content without it"
+msgstr ""
+
+#: inc/class-settings.php:899
+msgid "The bulk data processing has been completed."
+msgstr ""
+
+#: inc/class-main.php:1053
+#, php-format
+msgid ""
+"The bulk updater has been started and will take approximately %s minute(s) "
+"to complete. Processing takes place in the background so you can safely "
+"leave this page."
+msgstr ""
+
+#: inc/class-settings.php:146
+msgid ""
+"The fixation calculates how many letters in a world is bolded. A low "
+"fixation has fewer bolded letters for the word and is indicated by a higher "
+"fixation number. Check out the preview tab for dynamic examples."
+msgstr ""
+
+#: inc/class-settings.php:160
+msgid ""
+"The saccade calculates how often a word is chosen for bolded letters. A lot "
+"of saccades will have nearly every word with bolded letters, indicated by a "
+"higher saccade number. Check out the preview tab for dynamic examples."
+msgstr ""
+
+#: inc/class-main.php:1002
+#, php-format
+msgid "There are %s post(s) that will be processed with these settings."
+msgstr ""
+
+#: inc/class-main.php:1022
+msgid "There are no posts that will be processed with these settings."
+msgstr ""
+
+#: templates/dashboard-admin.php:176
+#, php-format
+msgid ""
+"This content will always save and pull it's accessible content from post ID "
+"%s"
+msgstr ""
+
+#: templates/dashboard-admin.php:170
+msgid ""
+"This content will become accessible but &lt;strong&gt;without showing a "
+"toggle!&lt;/strong&gt;"
+msgstr ""
+
+#: templates/dashboard-admin.php:164
+msgid "This content will become accessible!"
+msgstr ""
+
+#: templates/dashboard-admin.php:183
+msgid ""
+"This content won't be accessible, nor will it have a toggle. &lt;em&gt;"
+"Yet&lt;/em&gt;."
+msgstr ""
+
+#: templates/dashboard-admin.php:104
+msgid ""
+"This feature uses WordPress CRON events to reduce your server's load and "
+"respects your plan's daily API limit to prevent overages."
+msgstr ""
+
+#: templates/dashboard-support.php:21
+msgid ""
+"This is a <em>free</em> plugin that I poured a bit of my heart and soul into "
+"with the sole purpose of being helpful to you and the users of your "
+"WordPress website. Please consider supporting my queer and autistic-led "
+"small business by donating! Thank you!"
+msgstr ""
+
+#: templates/dashboard-admin.php:114
+msgid ""
+"This is how many posts will be processed at a time. Use a smaller number to "
+"reduce the load on your server or avoid server timeouts. This means more "
+"batches will be scheduled, but less posts processed per batch so each one "
+"does not take as long."
+msgstr ""
+
+#: templates/dashboard-admin.php:153
+msgid ""
+"This plugin provides four (4) shortcodes so you can add accessible reading "
+"anywhere on your website!"
+msgstr ""
+
+#: inc/class-main.php:203 inc/class-main.php:558
+#, php-format
+msgid ""
+"This post will use approximately %s API request(s) to process accessible "
+"content due to the character limitations."
+msgstr ""
+
+#: templates/dashboard-admin.php:173
+#, php-format
+msgid ""
+"This shortcode saves it's content to a post's meta data, so if you're using "
+"it in a global area of your website like your header, footer, or sidebar, "
+"you should assign the shortcode a post or page ID to save it once to avoid "
+"saving it to every post or page it's visible on by setting the %s attribute "
+"like this:"
+msgstr ""
+
+#: templates/dashboard-admin.php:166
+#, php-format
+msgid ""
+"This shortcode will also add the toggle switch to enable/disable the "
+"accessible content automatically, so if you're using it in multiple "
+"locations and want just one switch, set the %s attribute to %s to disable it "
+"like this:"
+msgstr ""
+
+#: templates/dashboard-admin.php:241
+msgid ""
+"This WordPress plugin is not a product of <strong>Bionic Reading<sup>&reg;"
+"</sup></strong>. It was developed by an independent and disabled developer, "
+"<strong>Tessa Watkins of AuRise Creative</strong>, that wants to bring more "
+"accessibility to the digital space."
+msgstr ""
+
+#: templates/dashboard-admin.php:217
+#, php-format
+msgid ""
+"To complement the %s shortcode, the %s shortcode allows you to add the "
+"original content that a toggle switch will hide when accessible reading is "
+"turned on."
+msgstr ""
+
+#: templates/dashboard-admin.php:203
+msgid ""
+"To use it, simply wrap the accessible content with the shortcode. For "
+"example:"
+msgstr ""
+
+#: templates/dashboard-admin.php:221
+msgid ""
+"To use it, simply wrap the original content with the shortcode. For example:"
+msgstr ""
+
+#: templates/dashboard-admin.php:163
+#, php-format
+msgid ""
+"To use it, simply wrap the text you want to make accessible with the "
+"shortcode while also adding an <code>%s</code> attribute. For example:"
+msgstr ""
+
+#: inc/class-settings.php:246
+msgid "Toggle Button Appearance"
+msgstr ""
+
+#: inc/class-settings.php:369
+msgid "Toggle Switch Default Setting"
+msgstr ""
+
+#: inc/class-main.php:244 inc/class-settings.php:377
+msgid "Use Global Setting"
+msgstr ""
+
+#: inc/class-settings.php:188
+msgid "Visibility"
+msgstr ""
+
+#: inc/class-settings.php:200
+msgid "Visible"
+msgstr ""
+
+#: templates/dashboard-admin.php:234
+msgid ""
+"We have an internal dictionary of learned words and reading the first few "
+"letters can be enough to recognize whole words."
+msgstr ""
+
+#: inc/class-settings.php:269
+msgid "Width"
+msgstr ""
+
+#: inc/class-settings.php:270
+msgid "Width of the toggle button, in pixels"
+msgstr ""
+
+#: templates/dashboard-support.php:11
+msgid "Write a Review"
+msgstr ""
+
+#: templates/dashboard-admin.php:210
+msgid ""
+"You can generate accessible content for this shortcode using the official <a "
+"href=\"https://app.bionic-reading.com/\" target=\"_blank\" rel=\"noopener "
+"noreferrer\">Bionic Reading<sup>&reg;</sup> web application</a>."
+msgstr ""
+
+#: templates/dashboard-admin.php:206 templates/dashboard-admin.php:224
+#, php-format
+msgid ""
+"You can optionally add additional HTML classes to the outermost wrapper by "
+"setting the value to the %s attribute. If setting multiple classes, they "
+"should be separated by a single space. For example:"
+msgstr ""
+
+#: templates/dashboard-admin.php:233
+msgid "Your brain reads faster than your eyes!"
+msgstr ""
+
+#: templates/edit-metabox.php:4
+#, php-format
+msgid "Your website has used <strong>%s of %s API requests</strong> today."
+msgstr ""

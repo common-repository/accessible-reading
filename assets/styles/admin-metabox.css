@@ -1,0 +1,67 @@
+/*!
+    Name: admin-metabox.css
+    Plugin: Accessible Reading
+    Author: AuRise Creative | https://aurisecreative.com
+    Last Modified: September 22, 2022, at 16:54
+*/
+
+
+/* Global Styles */
+
+.au-metabox-accessible-reading {
+    --au-accessible-reading-accent-color: #019ecf;
+    --au-accessible-reading-accent-color-hover: #027ca2;
+    --au-accessible-reading-accent-color-2: #1c395d;
+    --au-accessible-reading-white: #ffffff;
+    --au-accessible-reading-light-bg: #efefef;
+    --au-accessible-reading-light-border: #cccccc;
+    --au-accessible-reading-light-shadow: #9a9a9a;
+    --au-accessible-reading-medium-border: #666666;
+    --au-accessible-reading-text: #333333;
+    --au-accessible-reading-black: #000000;
+    --au-accessible-reading-button-width: 110px;
+    display: block;
+    width: 100%;
+    max-width: 600px;
+    margin: 0;
+    padding: 16px;
+    background: var(--au-accessible-reading-white);
+    border: 1px solid var(--au-accessible-reading-light-border);
+}
+
+.au-metabox-accessible-reading * {
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.au-metabox-accessible-reading p {
+    margin: 0 0 1em;
+    font-size: 16px;
+}
+
+.au-metabox-accessible-reading p:last-child {
+    margin-bottom: 0;
+}
+
+.au-metabox-accessible-reading p.plugin-settings-link {
+    margin: 1em 0 0;
+}
+
+.au-metabox-accessible-reading p.plugin-settings-link a {
+    font-size: 14px;
+}
+
+.au-metabox-accessible-reading fieldset .input-field label {
+    display: block;
+    margin: 16px 0 6px 0;
+    font-weight: 700;
+}
+
+.au-metabox-accessible-reading fieldset .input-field .note {
+    display: block;
+    font-size: 12px;
+    font-style: italic;
+}

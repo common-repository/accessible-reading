@@ -1,0 +1,144 @@
+/*!
+    Name: accessible-reading.css
+    Author: AuRise Creative | https://aurisecreative.com
+    Last Modified: August 27, 2022, at 13:11
+*/
+
+.accessible-reading-toggle {
+    --au-accessible-reading-toggle-switch-width: 285px;
+    --au-accessible-reading-toggle-switch-height: 30px;
+    --au-accessible-reading-toggle-switch-padding: 5px;
+    --au-accessible-reading-toggle-switch-ball: calc(var(--au-accessible-reading-toggle-switch-height) - (var(--au-accessible-reading-toggle-switch-padding) + var(--au-accessible-reading-toggle-switch-padding)));
+    --au-accessible-reading-toggle-switch-color-on-bg: #019ecf;
+    --au-accessible-reading-toggle-switch-color-on-ball: #1c395d;
+    --au-accessible-reading-toggle-switch-color-on-text: #ffffff;
+    --au-accessible-reading-toggle-switch-color-off-bg: #cccccc;
+    --au-accessible-reading-toggle-switch-color-off-ball: #7f8c8d;
+    --au-accessible-reading-toggle-switch-color-off-text: var(--au-accessible-reading-toggle-switch-color-on-text);
+}
+
+
+/* Toggle Switch Size for Languages */
+
+.accessible-reading-toggle.lang-es {
+    --au-accessible-reading-toggle-switch-width: 240px;
+}
+
+.accessible-reading-toggle.lang-de {
+    --au-accessible-reading-toggle-switch-width: 284px;
+}
+
+
+/* Toggle Switch */
+
+.accessible-reading-toggle {
+    text-align: right;
+}
+
+.accessible-reading-toggle .checkbox-switch {
+    display: inline-block;
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+    text-align: left;
+    width: var(--au-accessible-reading-toggle-switch-width);
+    height: var(--au-accessible-reading-toggle-switch-height);
+    line-height: 1.2;
+    font-size: 14px;
+    -moz-border-radius: var(--au-accessible-reading-toggle-switch-height);
+    -ms-border-radius: var(--au-accessible-reading-toggle-switch-height);
+    -o-border-radius: var(--au-accessible-reading-toggle-switch-height);
+    -webkit-border-radius: var(--au-accessible-reading-toggle-switch-height);
+    border-radius: var(--au-accessible-reading-toggle-switch-height);
+}
+
+.accessible-reading-toggle .checkbox-switch input.input-checkbox {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: var(--au-accessible-reading-toggle-switch-width);
+    height: var(--au-accessible-reading-toggle-switch-height);
+    padding: 0;
+    margin: 0;
+    opacity: 0;
+    z-index: 2;
+    cursor: pointer;
+}
+
+.accessible-reading-toggle .checkbox-switch .checkbox-animate {
+    display: block;
+    position: relative;
+    width: var(--au-accessible-reading-toggle-switch-width);
+    height: var(--au-accessible-reading-toggle-switch-height);
+    background-color: var(--au-accessible-reading-toggle-switch-color-off-bg);
+    -moz-transition: background 0.25s ease-out 0s;
+    -ms-transition: background 0.25s ease-out 0s;
+    -o-transition: background 0.25s ease-out 0s;
+    -webkit-transition: background 0.25s ease-out 0s;
+    transition: background 0.25s ease-out 0s;
+}
+
+.accessible-reading-toggle .checkbox-switch .checkbox-animate:before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: var(--au-accessible-reading-toggle-switch-ball);
+    height: var(--au-accessible-reading-toggle-switch-ball);
+    background-color: var(--au-accessible-reading-toggle-switch-color-off-ball);
+    top: var(--au-accessible-reading-toggle-switch-padding);
+    left: var(--au-accessible-reading-toggle-switch-padding);
+    z-index: 10;
+    -moz-border-radius: var(--au-accessible-reading-toggle-switch-ball);
+    -ms-border-radius: var(--au-accessible-reading-toggle-switch-ball);
+    -o-border-radius: var(--au-accessible-reading-toggle-switch-ball);
+    -webkit-border-radius: var(--au-accessible-reading-toggle-switch-ball);
+    border-radius: var(--au-accessible-reading-toggle-switch-ball);
+    -moz-transition: left 0.3s ease-out;
+    -ms-transition: left 0.3s ease-out;
+    -o-transition: left 0.3s ease-out;
+    -webkit-transition: left 0.3s ease-out;
+    transition: left 0.3s ease-out;
+}
+
+.accessible-reading-toggle .checkbox-switch input.input-checkbox:checked+.checkbox-animate {
+    background-color: var(--au-accessible-reading-toggle-switch-color-on-bg);
+}
+
+.accessible-reading-toggle .checkbox-switch input.input-checkbox:checked+.checkbox-animate:before {
+    left: calc(var(--au-accessible-reading-toggle-switch-width) - var(--au-accessible-reading-toggle-switch-ball) - var(--au-accessible-reading-toggle-switch-padding));
+    background-color: var(--au-accessible-reading-toggle-switch-color-on-ball);
+}
+
+.accessible-reading-toggle .checkbox-switch .checkbox-off,
+.accessible-reading-toggle .checkbox-switch .checkbox-on {
+    /* float: left; */
+    width: 100%;
+    margin: 0;
+    padding: 7px calc(var(--au-accessible-reading-toggle-switch-ball) + var(--au-accessible-reading-toggle-switch-padding) + var(--au-accessible-reading-toggle-switch-padding));
+    font-weight: 700;
+    font-size: 14px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    white-space: nowrap;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.accessible-reading-toggle .checkbox-switch .checkbox-off {
+    opacity: 1;
+    color: var(--au-accessible-reading-toggle-switch-color-off-text);
+}
+
+.accessible-reading-toggle .checkbox-switch .checkbox-on {
+    display: none;
+    color: var(--au-accessible-reading-toggle-switch-color-on-text);
+}
+
+.accessible-reading-toggle .checkbox-switch input.input-checkbox:checked+.checkbox-animate .checkbox-off {
+    display: none;
+}
+
+.accessible-reading-toggle .checkbox-switch input.input-checkbox:checked+.checkbox-animate .checkbox-on {
+    display: block;
+}
